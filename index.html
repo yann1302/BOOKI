@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<html> 
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>booki</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
+        <link rel="shortcut icon" href="/DW P2 - Ressources Booki FR/images/logo/Booki@3x.png" type="image/x-icon">
+   
+        
+    </head>
+
+    <body>
+        <header> 
+
+            <div class="foot-2" >
+            <div class="logo" >
+                <img src="/DW P2 - Ressources Booki FR/images/logo/Booki.png " alt="" style="width: 7em; height:3em;">
+            </div>
+          
+            <div class="item" > <a  href="#hebergement" style="color:blue ;" >  Hébergéments   </a></div>
+
+            <div class="item_1"><a    href="#activite" style="color: black;  ">Activités</a></div>
+        
+        </div>
+        
+        </header>
+
+        <section>
+            <div style="margin: 2rem;">
+                <h2 > Trouver votre hébergément pour des vancances de reve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+
+                <form id= searchbox  method= get  action= /search >
+                   
+                   <button class="icon"><i class="fa-solid fa-1.5x fa-location-dot"></i>   </button> 
+                    <input id="q" name= q  type= text  placeholder= Marseille,France />
+                  
+                    <button class="searchFormSubmitinput">
+                        <span class="searchFormSubmitinputText">Rechercher</span>
+                        <i class="searchFormSubmitinputIcon fas fa-search"></i>
+                      </button>
+                    </form> 
+                    
+                    <div style="display:inline "> 
+
+                    <div class="chip"  style="border: 8px solid #ffffff; background-color: #ffffff;">
+                      <p><b>Filtres</b></p>
+                      </div>
+
+
+                      <div class="chip" >
+                        <div class="vie"><i class="fa-solid fa-money-bill-wave" ></i> </div>
+                        
+                        <b>Economiques</b>
+                      </div>  
+
+                      
+                      <div class="chip">
+                        <div class="vie">  <i class="fa-sharp fa-solid fa-child-reaching "></i> </div>
+                      
+                        <b>Familiale</b>
+                      </div>  
+
+
+                      <div class="chip">
+                        <div class="vie"> <i class="fa-solid fa-heart"></i> </div>
+                        
+                        <b>Romantique</b>
+                      </div>  
+
+           
+                      <div class="chip" >
+                        <div class="vie">  <i class="fa-solid fa-dog" ></i></div>
+                       
+                        <b>Animaux autorisés</b>
+                      </div>  
+                    
+                    </div>
+                    
+                    <br> <br>
+
+                    <i class="fa-solid fa-circle-info"></i>  plus de 500 logements sont disponibles dans cette ville</div>
+
+
+                    <div class="flex-container">
+                        <div style="width:100rem ;">
+                            <div class="flex">
+                                  
+                                 <h3 style="font-weight:bold; margin-left: 2.2rem;"> Hébergements à Marseille </h3> 
+                       
+                                 <div class="card"  id="hebergement" >
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Avatar" style="width:100%">
+                                  <div class="container">
+                                    <h4 style=" font-size: 0.875rem;"><b>Auberge la Cannebiere</b></h4> 
+                                    <p >nuit a partir de <b>25$</b></p> 
+                       
+                                    <div id="Star"style=" margin-top: 0.4rem; font-size:0.875rem;  margin-left:1rem;  " >
+                                      <i class="fa-sharp fa-solid fa-star "></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star "></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      </div>
+                                  </div>
+                                </div>
+                       
+                       
+                                <div class="card"  id="hebergement">
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Avatar" style="width:100%;height: 9rem; ">
+                                  <div class="container">
+                                    <h4 ><b>Hotel du port</b></h4> 
+                                    <p >nuit a partir de <b>52$</b></p> 
+                       
+                                    <div id="Star" style=" margin-top: 0.4rem; font-size: 0.875rem; margin-left:1rem;  ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                </div>
+                       
+                       
+                                <div class="card"  id="hebergement">
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Avatar" style="width:100%; height: 9rem;">
+                                  <div class="container">
+                                    <h4  ><b>Hotel les Mouettes</b></h4> 
+                                    <p >nuit a partir de <b>76$</b></p> 
+                       
+                                    <div id="Star" style="margin-top: 0.4rem; font-size: 0.875rem;  margin-left: 1rem;">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      </div>
+                                  </div>
+                                                
+                               </div>
+                       
+                               <div class="card" id="hebergement" >
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Avatar" style="width:100%">
+                                  <div class="container">
+                                    <h4><b>Hotel de la Mer</b></h4> 
+                                    <p>nuit a partir de <b>46$</b></p> 
+                       
+                                    <div id="Star" style=" margin-top: 0.4rem; font-size:0.875rem;  margin-left:1rem;  ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      </div>
+                                  </div>
+                                                
+                               </div>
+                       
+                               <div class="card" id="hebergement" >
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Avatar" style="width:100%">
+                                  <div class="container">
+                                    <h4><b>Auberge le Panier</b></h4> 
+                                    <p>nuit a partir de <b>23$</b></p> 
+                       
+                                    <div id="Star" style=" margin-top: 0.4rem; font-size:0.875rem;  margin-left:1rem;  " >
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      </div>
+                                  </div>
+                                                
+                               </div>
+                       
+                       
+                               <div class="card"  id="hebergement">
+                                  <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Avatar" style="width:100%">
+                                  <div class="container">
+                                    <h4><b>Hotel chez Amina</b></h4> 
+                                    <p>nuit a partir de <b>96$</b></p> 
+                       
+                                    <div id="Star" style=" margin-top: 0.4rem; font-size:0.875rem;  margin-left:1rem;  " >
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      </div>
+                                  </div>
+                                                  
+                               </div>
+                       
+                           </div>   
+                           
+                           <div class="flex2">
+                               <h4 style="margin-left: 3em;"><b>Afficher plus</b></h4>  
+                                         
+                                   </div>
+                    
+                        </div>
+             <div class="pop" style="">
+                            <div style="display: flex ;" >      <h3 style="font-weight:bold;"> les plus populaires </h3> 
+                                            
+                                <i class="fa-solid fa-star" id="fa-star_pop"></i>
+                            </div>
+                        
+                        
+                           
+                 
+                            <div class="card2" >
+                                <div > <img src="/DW P2 - Ressources Booki FR/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Avatar">    </div>
+                                 
+                                 <div class="container" style="margin-left:8% ;" > 
+                                   <h4><b>Hotel le soleil du matin</b></h4> 
+                                   <p style="margin-top: 1rem;">nuit a partir de <b>128$</b></p> 
+                 
+                                   <div id="Star" style="margin-top: 4rem; font-size: 0.875rem;">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     </div>
+                                 </div>
+                                               
+                             </div>
+                 
+                 
+                 
+                            <div class="card2"  >
+                                <div > <img src="/DW P2 - Ressources Booki FR/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Avatar" style=" width:6rem ;">    </div>
+                                 
+                                 <div class="container" style="margin-left:8% ;" > 
+                                   <h4><b>Au coeur de l'eau chambre d'hotel</b></h4> 
+                                   <p style="margin-top: 1rem;">nuit a partir de <b>76$</b></p> 
+                 
+                                   <div id="Star" style="margin-top: 3rem; font-size: 0.875rem; ">
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     </div>
+                                 </div>
+                                               
+                             </div>
+                 
+                 
+                 
+                 
+                             <div class="card2" >
+                                <div > <img src="/DW P2 - Ressources Booki FR/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Avatar">    </div>
+                                 
+                                 <div class="container" style="margin-top: 1%; font-size: 0.875rem;" > 
+                                   <h4><b>Hotel tout blanc et tout bleu</b></h4> 
+                                   <p style="margin-top: 1rem;">nuit a partir de <b>68$</b></p> 
+                 
+                                   <div id="Star" style="margin-top: 4rem; font-size: 0.875rem; margin-left:1rem;" >
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-solid fa-star"></i>
+                                     <i class="fa-regular fa-star"></i>
+                                     </div>
+                                 </div>
+                 
+                         </div>
+                 
+                         </div>
+                 
+
+                        </div>
+                         
+                      </div>
+                   
+                      <h3 id="activite_h3" class="h3_marseille" > Activités à Marseille </h3>  
+                      
+                      
+           <div class="flex-container_activite"  id="flex-container_id">
+            
+            <div  class="bout_2" >
+                
+            <div  class="activity-1" style="display: flex;" > 
+    
+                <div class="card"  id="activite" >
+                    <img src="/DW P2 - Ressources Booki FR/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Avatar" style="width:100%; height: 85%;">
+                    <div class="container">
+                      <h4 style=" font-size: 0.875rem; margin-left: 4%;"><b>Vieux port</b></h4> 
+                    
+                    </div>
+                  </div>
+         
+         <div style="display:inline-block ;">  
+                  <div class="card"  id="activite_1">
+                    <img src="/DW P2 - Ressources Booki FR/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Avatar" style="width:100%;height: 12rem; ">
+                    <div class="container">
+                      <h4 style=" font-size: 0.875rem; margin:0% ; margin-top: 1rem; margin-left: 1rem;"><b>port de pomégues</b></h4> 
+                     
+                    </div>
+                  </div>
+         
+         
+                  <div class="card"  id="activite_2">
+                    <img src="/DW P2 - Ressources Booki FR/images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Avatar" style="width:100%; height: 75%;">
+                    <div class="container">
+                      <h4  style=" font-size: 0.875rem; margin:0% ; margin-top: 0.9rem; margin-left: 1rem;"><b>iles du frioul</b></h4> 
+                      
+                    </div>
+                                  
+                 </div>
+                 
+                </div>
+
+            </div>
+
+            </div>
+
+            <div class="bout" >
+                <div class="activity-1"  style="display: flex;"> 
+                        <div class="card" id="activite_3" >
+                            <img src="/DW P2 - Ressources Booki FR/images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Avatar" style="width:100%; height: 85%;">
+                            <div class="container">
+                            <h4 style=" font-size: 0.875rem; margin-left: 4%;"><b>parc National du calanque</b></h4> 
+                            
+                            </div>
+                        </div>
+                
+                <div style="display:inline-block ;">  
+                        <div class="card"  id="activite_4">
+                            <img src="/DW P2 - Ressources Booki FR/images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Avatar" style="width:100%;height: 75%; ">
+                            <div class="container">
+                            <h4 style=" font-size: 0.875rem; margin:0% ; margin-top: 1rem; margin-left: 1rem;"><b>Notre-dame-de-la-garde</b></h4> 
+                            
+                            </div>
+                        </div>
+                
+                
+                        <div class="card"  id="activite_5">
+                            <img src="/DW P2 - Ressources Booki FR/images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Avatar" style="width:100%; height: 80%;">
+                            <div class="container">
+                            <h4  style=" font-size: 0.875rem; margin:0% ; margin-top: 0.9rem; margin-left: 1rem;"><b>parc-longchamp</b></h4> 
+                            
+                            </div>
+                                        
+                        </div>
+                        
+                        </div>
+
+
+            </div>
+             
+          </div>
+             
+        </div>
+
+           
+        </section>
+
+
+    </body>
+
+
+
+
+    <footer class="footer">
+        <div class="footerColumnwrapper">
+          <div class="footerColumnwrapperColumn">
+            <h3 class="footerColumnwrapperColumnTitle">A propos</h3>
+            <a href="#" class="footerColumnwrapperColumnLink">Fonctionnement du site</a>
+            <a href="#" class="footerColumnwrapperColumnLink">Conditions générales de vente</a>
+            <a href="#" class="footerColumnwrapperColumnLink">Données et confidentialités</a>
+          </div>
+          <div class="footerColumnwrapperColumn">
+            <h3 class="footerColumnwrapperColumnTitle">Nos hébergement</h3>
+            <a href="#" class="footerColumnwrapperColumnLink">Charte qualité</a>
+            <a href="#" class="footerColumnwrapperColumnLink">Soumettre votre hotel</a>
+          </div>
+          <div class="footerColumnwrapperColumn">
+            <h3 class="footerColumnwrapperColumnTitle">Assitance</h3>
+            <a href="#" class="footerColumnwrapperColumnLink">Centre d'aide</a>
+            <a href="#" class="footerColumnwrapperColumnLink">Nous contacter</a>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+</html>
